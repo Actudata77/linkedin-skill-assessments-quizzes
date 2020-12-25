@@ -809,7 +809,7 @@ def __init__(self):
 `def sales_tax(amount):
 '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
 
--[x]
+- [x]
 
 `def calculate_sales_tax(subtotal):
 pass`
