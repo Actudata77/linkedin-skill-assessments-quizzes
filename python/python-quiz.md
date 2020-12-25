@@ -5,7 +5,7 @@ isdraft = False
 
 ## Python Assessment
 
----
+Python assessment to simple test your basic understanding about python language
 
 #### Q1. What is an abstract class?
 
