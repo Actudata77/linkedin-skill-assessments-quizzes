@@ -1,6 +1,6 @@
-+++
-memflask = True
-isdraft = False
++++ 
+memflask = True 
+isdraft = False 
 +++
 
 ## Python Assessment
@@ -18,7 +18,8 @@ isdraft = False
 
 - [ ] The `any()` function will randomly return any item from the list.
 - [x] The `any()` function returns True if any item in the list evaluates to True. Otherwise, it returns False.
-- [ ] The `any()` function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.
+- [ ] The `any()` function takes as arguments the list to check inside, and the item to check for. If "any" of the items
+  in the list match the item to check for, the function returns True.
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
@@ -161,9 +162,12 @@ return list(enumerate(college_years, 2019)
 #### Q14. How does `defaultdict` work?
 
 - [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
-- [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as string or integers).
-- [x] If you try to access a key in a dictionary that doesn't exist, `defaultdict` will create a new key for you instead of throwing a `KeyError`.
-- [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
+- [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created
+  the `defaultdict` (such as string or integers).
+- [x] If you try to access a key in a dictionary that doesn't exist, `defaultdict` will create a new key for you instead
+  of throwing a `KeyError`.
+- [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally
+  modified.
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
 
@@ -325,8 +329,10 @@ else:
 
 #### Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
 
-- [x] The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.
-- [ ] The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.
+- [x] The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in
+  the linked list must be visited.
+- [ ] The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to
+  access each node in memory.
 - [ ] The runtime cannot be determined unless you know how many nodes are in the singly linked list.
 - [ ] The runtime is O(1) because you can index directly to a node in a singly linked list.
 
@@ -337,7 +343,7 @@ fruits = ['Apples', 'Oranges', 'Bananas']
 quantities = [5, 3, 4]
 prices = [1.50, 2.25, 0.89]
 
-# Desired output
+\# Desired output
 [('Apples', 5, 1.50),
 ('Oranges', 3, 2.25),
 ('Bananas', 4, 0.89)]
@@ -623,8 +629,7 @@ def sum(a, b):
 fruit_info = {
 'fruit': 'apple',
 'count': 2,
-'price': 3.5
-}
+'price': 3.5 }
 
 - [x] `fruit_info ['price'] = 1.5`
 - [ ] `my_list [3.5] = 1.5`
@@ -680,7 +685,8 @@ fruits = {'Apples': 5, 'Oranges': 3, 'Bananas': 4}
 #### Q51. What is the purpose of the `self` keyword when defining or calling methods on an instance of an object?
 
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
-- [ ] There is no real purpose for the `self` method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.
+- [ ] There is no real purpose for the `self` method. It's just legacy computer science jargon that Python keeps staying
+  consistent with other programming languages.
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
@@ -759,13 +765,15 @@ def __init__(self):
 #### Q59. Which statement about the class methods is true?
 
 - [ ] A class method holds all of the data for a particular class.
-- [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
+- [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that
+  inherits from that class.
 - [ ] A class method is a regular function that belongs to a class, but it must return `None`
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
 
 #### Q60. Which of the following is TRUE About how numeric data would be organised in a banary Search tree?
 
-- [x] `For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.` (Not Sure)
+- [x] `For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.` (
+  Not Sure)
 - [ ] `Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees`
 - [ ] `The top node of the binary search tree would be an arbitray number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way`
 - [ ] `The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node`
@@ -787,14 +795,21 @@ def __init__(self):
 #### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purches?
 
 - [ ] 
+
 `def tax(my_float):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+'''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+
 - [ ]
+
 `def tx(amt):
-    '''Gets the tax on an amount.'''`
+'''Gets the tax on an amount.'''`
+
 - [ ]
+
 `def sales_tax(amount):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+'''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+
 -[x]
+
 `def calculate_sales_tax(subtotal):
-    pass`
+pass`
