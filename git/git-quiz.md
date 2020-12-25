@@ -1,8 +1,4 @@
-+++
-memflask = True
-isdraft = False
-+++
-
++++ memflask = True isdraft = False +++
 
 ## Git Assessment
 
@@ -38,7 +34,8 @@ git merge --squash HEAD@{1}
 (Reset the current branch to the commit just before the last 5)
 
 `git merge --squash HEAD@{1}`
-(HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it would just after a merge from that commit)
+(HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it
+would just after a merge from that commit)
 
 </p></details>
 
@@ -274,9 +271,11 @@ git bisect good 69faab6268350295550de7d587bc323d
 ```
 
 - [ ] It runs a merge of a good commit that is discovered using a known bad commit and known good commit
-- [ ] It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced a bug
+- [ ] It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced
+  a bug
 - [ ] It defines a bad commit and resets the HEAD using a known bad commit and known good commit
-- [x] It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug
+- [x] It performs a binary search using a known bad commit and known good commit to determine which commit introduced a
+  bug
 
 #### Q26. In a situation where you have several commits for a single task, what is the most efficient way to restructure your commit history?
 
@@ -437,7 +436,8 @@ modified: beta-notes.js
 
 <details><summary>Explanation</summary><p>
 
-In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase. [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+In Git, there are two main ways to integrate changes from one branch into another: the merge and the
+rebase. [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 </p></details>
 
@@ -620,9 +620,11 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q71. What is a remote repository?
 
-- [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
+- [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source
+  collaboration efforts
 - [ ] the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
-- [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
+- [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or
+  corrupted
 - [x] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
 
 #### Q72. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
@@ -722,21 +724,27 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q85. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
 
-- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to
+  match the specified commit, discarding any changes.
 - [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
 - [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
 
 #### Q86. Consider the following Git workflow :
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
 
 Which of the following options is correct ?
 
-- [ ] 1. Develop 2. Release 3. Hotfix 4. Feature 5. Master
-- [ ] 1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
-- [ ] 1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
-- [x] 1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
+- [ ] 
+    1. Develop 2. Release 3. Hotfix 4. Feature 5. Master
+- [ ] 
+    1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
+- [ ] 
+    1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
+- [x] 
+    1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
 
 #### Q87. What information does the git config file store?
 
