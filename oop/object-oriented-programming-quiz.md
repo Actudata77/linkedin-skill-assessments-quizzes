@@ -1,3 +1,9 @@
++++
+memflask = True
+isdraft = False
++++
+
+
 ## Object-Oriented Programming (OOP) Assessment
 
 #### Q1. What is an example of dynamic binding?

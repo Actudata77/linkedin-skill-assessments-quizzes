@@ -1,3 +1,8 @@
++++
+memflask = True
+isdraft = False
++++
+
 ## AWS Assessment
 
 #### Q1. You have an application using a 100 GB MySQL database that you are migrating into AWS. What should you consider when deciding between whether to host the database on RDS for MySQL or Aurora?

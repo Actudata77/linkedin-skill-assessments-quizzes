@@ -1,6 +1,11 @@
++++
+memflask = True
+isdraft = False
++++
+
 ## C (Programming Language) Assessment
 
-##### Q1. Which Code saple will eventually cause the computer to run out of memory ?
+#### Q1. Which Code saple will eventually cause the computer to run out of memory ?
 
 - [x]
 

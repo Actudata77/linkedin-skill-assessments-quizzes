@@ -1,3 +1,9 @@
++++
+memflask = True
+isdraft = False
++++
+
+
 ## Git Assessment
 
 #### Q1. How can you check your current git version?
