@@ -1,4 +1,7 @@
-+++ memflask = True isdraft = False +++
++++ 
+noatcards = True 
+isdraft = False 
++++
 
 ## Git Assessment
 

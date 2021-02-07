@@ -1,12 +1,13 @@
-NoSQL Linkedin assessment skills test
+# NoSQL Linkedin assessment skills test
 
-Q1. Which types of indexes are available in CosmosDB? 
+## Q1. Which types of indexes are available in CosmosDB?
+
 1. range and spatial <<<<<--CORRECT 
 2. secondary and primary key 
 3. secondary and spatial 
 4. range and primary key
 
-Q2. You want to connect a DynamoDB stream to AWS Lambda function? 
+## Q2 You want to connect a DynamoDB stream to AWS Lambda function? 
 1. DynamoDB table 
 2. DynamoDB trigger <<<<<--CORRECT 
 3. DynamoDB item 
@@ -278,3 +279,43 @@ Q43. What is the recommended size for Redis keys?
     - short
     - medium
     - a single bit <<<<----May be
+## Q3. To index a field that holds an array value in MongoDB, which index type do you create? 
+## Q4. You want to test HBASE on your laptop using the fewest number of steps. What do you do? 
+## Q5. You need to create a document database that supports database triggers. Which NoSQL database should you use? 
+## Q6. What is recommended size for Redis keys? 
+## Q7. You need to design security for DynamoDB to allow users read-only access to certain items and attributes in a table. What do you do? 
+## Q8. What does redis use to sort the elements of a sorted set? 
+## Q9.You need to change the shard key of an existing MongoDB collection. What do you do? 
+## Q10. Polyglot storage means using multiple types of what in the same application? 
+## Q11. You need to implement the simplest possible scalable, in-memory cache for your AWS application. Which service do you select? 
+## Q12. You are doing data modelling for Google BigTable. Which statement expresses if and when you should split entities across multiple rows? 
+## Q13. Which two characteristics define Amazon Quantum Ledger Database? 
+## Q14. You need to design the primary key for DynamoDB based on three attributes. What do you do? 
+## Q15. You need to design the primary key for DynamoDB based on three attributes. What do you do? 
+## Q16. Which of these data types should you avoid in designing a Google Bigtable row key?
+## Q17. Your startup is building a prototype that has an evolving schema. Your data will be eventually consistent. Your application is hosted in AWS. Which databse do you choose?
+## Q18. You need to create a scalable databse that allows you to share documents across authorized mobile clients in real time. What Google NoSQL database should you use?
+## Q19. You want to test HBase on your laptop using the fewest number of steps. What do you do?
+## Q20. You need to design security for DynamoDB to allow users read-obly access to certain items and attriutes in a table. What do you do?
+## Q21. You need to design a primary key for DynamoDb based on three attributes. What do you do?
+## Q22. What does Redis use to sort the elements of a sorted set?
+## Q23. You need to create a document database that supports database triggers. Which NoSQL database should you use?
+## Q24. You need to implement the simples possible scalable, in-memory cache for your AWS application. Which service do you select?
+## Q25. Which statement is prefered Cypher code for Neo4j?
+## Q26. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?
+## Q27. You need to control your application's batch updates destination for your Bigtable multinode cluster. Which action do you take?
+## Q29. Polyglot storage mean using multiple types of what in the same application?
+## Q30. Your query to verify that your Redis key is configured to support expiring user information on a efined interval returns -2. What does this value indicate?
+## Q31. You are designing a MongoDB schema to support queries that will include lookups. What should you do?
+## Q32. What is the aggregation operator for a join concept in MongoDB?
+## Q33. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
+## Q34. To bulk load data into Amazon Neputn, what do you do?
+## Q35. You need to create a pub/sub server. Which databse do you use?
+## Q36. You want to connect a DynamoDb stream to an AWS lamdba function. Which one of these object do you create.
+## Q37. Which two types of indexes are available in Cosmos DB?
+## Q38. SQL databses and NoSQL are which types of scalable?
+## Q39. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
+## Q40. You are developing a model for a graph databse. Your data will be moved from a relatinal databse into Neo4j. Which of these transformations apply?
+## Q41. To index a field that holds an array value in MongoDB, which index type do you create?
+## Q42. You need to execute a command for MongoDB that does NOT load values from the .mongorc.js file. What do you do ?
+## Q43. What is the recommended size for Redis keys?
